@@ -1,0 +1,41 @@
+
+
+h1{
+    text-align: left;
+    padding: 20px;
+    color:black;
+
+}
+
+.text-right{
+    text-align: center;
+
+}
+
+.container{
+    float:left;
+}
+
+.container-1{
+    clear:left;
+    align-content: center;
+    padding: 20px;
+
+
+}
+.navbar-brand{
+    padding: 10px;
+    margin: 2px;
+
+}
+.humid{
+    float: right;
+
+}
+.data{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+}

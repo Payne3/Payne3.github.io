@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+    <head>
+    <meta charset="UTF-8">
+    <title>Windspeed</title> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity= "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+
+    </head>
+
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="Web_Dashboard.html">Weather</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="Web_Dashboard.html">Comparison</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                          <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                          <a class="dropdown-item" href="windpseed.html">Windspeed</a>
+                        </div>
+                        </li>
+                        </ul>
+                    </div>
+                  </nav>
+
+
+    
+  <!-- Our rows function in containers (grid created). -->
+  <div class="container">
+
+        <!-- Our columns function in rows. -->
+        <div class="row">
+    
+          <!-- Columns have 12 areas of width to work with. -->
+    
+          <!-- One third of screen (4/12) -->
+          <div class="col-md-4">
+            <!-- This is column 1 of 3 -->
+          </div>
+    
+          <!-- One third of screen (4/12) -->
+          <div class="col-md-4">
+            <!-- This is column 2 of 3 -->
+          </div>
+    
+          <!-- One third of screen (4/12) -->
+          <div class="col-md-4">
+    
+            <!-- This is column 3 of 3 -->
+          </div>
+    
+          <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+        </div>
+    
+      </div>
+
+      <div class="container">
+
+            <!-- First Row -->
+              <div class="row">
+                
+            <!-- First (and only column) -->
+                <div class="col">
+                <h1 class='text-left'> Windspeed vs. Latitude </h1>
+                <hr class="my-12">
+                <img src ="Fig4.png" alt= "Lat vs. Max Temp" width='600' height='400'/>
+                <p> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+                        The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+                        
+                        The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.</p>
+                </div>
+
+                <div class="col">
+                        <h1 class='text-right'> Visualizations</h1>
+                        <hr class="my-12">
+                        <p> <img src ="Fig2.png"  alt="M" width ='200' height = '200'/><img src ="Fig3.png" alt="M" width ='200' height = '200'/>
+                        <img src ="Fig4.png"  alt="M" width ='200' height = '200'/><img src ="Fig1.png" alt="M" width ='200' height = '200'/>
+                        </p>
+                </div>
+
+            
+            </div>
+
+        </div>
+            
+    </body>
+</html>

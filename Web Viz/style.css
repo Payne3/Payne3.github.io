@@ -1,0 +1,48 @@
+
+
+h1{
+    text-align: left;
+    padding: 20px;
+    color:black;
+
+}
+
+.text-right{
+    text-align: center;
+
+}
+
+.container{
+    float:left;
+}
+
+.container-1{
+    clear:left;
+    align-content: center;
+    padding: 20px;
+
+
+}
+.any-plot{
+    padding:20px;
+
+}
+
+
+.main-row{
+    
+    text-align: center;
+
+}
+.navbar-brand{
+    padding: 10px;
+    margin: 0px;
+
+}
+.humid{
+    float: right;
+
+}
+.big-pad{
+    padding:20px;
+}
