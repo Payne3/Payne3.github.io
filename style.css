@@ -3,7 +3,8 @@
 h1{
     text-align: left;
     padding: 20px;
-    color:black;
+    color: black;
+    border-radius: 20px;
 
 }
 
@@ -37,6 +38,8 @@ h1{
 .navbar-brand{
     padding: 10px;
     margin: 0px;
+    background-color: rgba(50, 115, 220, 0.3);
+    border-radius: 20px;
 
 }
 .humid{
