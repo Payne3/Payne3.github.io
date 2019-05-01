@@ -13,11 +13,11 @@ h1{
 }
 
 .container{
-    float:left;
+    display:flex;
 }
 
 .container-1{
-    clear:left;
+    float: center;
     align-content: center;
     padding: 20px;
 
