@@ -27,6 +27,9 @@ h1{
 .navbar-brand{
     padding: 10px;
     margin: 2px;
+    background-color: rgba(50, 115, 220, 0.3);
+    border-radius: 20px;
+
 
 }
 .humid{
